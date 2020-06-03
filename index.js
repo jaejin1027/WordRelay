@@ -1,5 +1,6 @@
 const Btn = document.querySelector('#button')
 
+const dictionary = []; //단어장
 Btn.addEventListener('click', () => {
     const Word = document.querySelector('#word').textContent
     const Input = document.querySelector('#input').value
